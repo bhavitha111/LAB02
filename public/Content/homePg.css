@@ -1,0 +1,39 @@
+
+
+  p {
+    font-family: "Dank Mono", ui-monospace, monospace;
+  }
+  
+  
+
+  .header {
+	font-family: Futura, sans-serif;
+	font-weight: 100;
+	font-size: 60px;
+    font-style:normal;
+	padding: 80px;
+
+	@keyframes ani {
+		0% {
+			transform: translate3d(0, 0, 0);
+			text-shadow: 0em 0em 0 $back;
+			color: $front;
+		}
+		30% {
+			transform: translate3d(0, 0, 0);
+			text-shadow: 0em 0em 0 $back;
+			color: $front;
+		}
+		70% {
+			transform: translate3d($d, -$d, 0);
+			text-shadow: -$d $d $back;
+			color: $front;
+		}
+		100% {
+			transform: translate3d($d, -$d, 0);
+			text-shadow: -$d $d $back;
+			color: $front;
+		}
+	}
+	
+}

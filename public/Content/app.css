@@ -1,0 +1,12 @@
+/* custom css goes here */
+
+   
+
+body {
+    background-image: url('Assets/images/background.jpg');
+  background-repeat: no-repeat;
+}
+
+body {
+    background-color: lightblue;
+  }
