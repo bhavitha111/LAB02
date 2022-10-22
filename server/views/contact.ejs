@@ -1,0 +1,44 @@
+<!--
+File Name - contact.ejs
+Student Name - Bhavitha Penaka
+Student ID - 301211147
+Date - 30-09-2022
+-->
+
+<%- include partials/header.ejs %>
+  <%- include partials/main_nav.ejs %>
+
+    <style>
+      body {
+        background-image: url('Assets/images/new.webp');
+        background-size: cover;
+      }
+    </style>
+    <div class="form-style-5">
+      <form>
+        <fieldset>
+          <legend><span class="number">1</span> Contact Form</legend>
+          <input type="text" name="field1" placeholder="Your Name *">
+          <input type="email" name="field2" placeholder="Your Email *">
+          <textarea name="field3" placeholder="About yourself"></textarea>
+          <input type="submit" value="Submit" formaction="http://localhost:3000/home"/>
+      </form>
+    </div>
+
+    <ul class="social-menu">
+      <span>&#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287
+        &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287
+        &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287
+        &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287&#8287 &#8287 &#8287 &#8287
+        &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287
+        &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287 &#8287
+        &#8287 &#8287 &#8287 &#8287 &#8287</span><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+      <a href="https://in.linkedin.com/in/Bhavitha-Penaka"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+    </ul>
+
+   <%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
