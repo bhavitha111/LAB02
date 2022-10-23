@@ -5,6 +5,7 @@ let contactsModel = mongoose.Schema({
     name: String,
     number: String,
     email: String,
+    
    
 },
 {

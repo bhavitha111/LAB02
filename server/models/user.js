@@ -11,8 +11,6 @@ let User = mongoose.Schema
             trim: true,
             required: 'username is required'
         },
-        
-        
        email: 
        {
             type: String,
