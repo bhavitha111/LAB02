@@ -1,3 +1,16 @@
+
+/*
+File Name - user.js
+Student Name - Bhavitha Penaka
+Student ID - 301211147
+Date - 21-10-2022
+*/
+
+
+
+
+
+
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');
 
